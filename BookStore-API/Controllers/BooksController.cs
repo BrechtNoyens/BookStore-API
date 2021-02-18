@@ -8,6 +8,7 @@ using BookStore_API.Data;
 using BookStore_API.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static BookStore_API.DTOs.BookDTO;
 
 namespace BookStore_API.Controllers
 {
