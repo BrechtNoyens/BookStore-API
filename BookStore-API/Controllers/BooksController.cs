@@ -68,7 +68,7 @@ namespace BookStore_API.Controllers
             {
                 _logger.LogInfo($"{location}: Attempted Call for id: {id}");
                 var book = await _bookRepository.FindById(id);
-                if(book == null)
+                if (book == null)
                 {
                     _logger.LogWarn($"{location}: Failed to retrieve record with id: {id}");
                     return NotFound();
